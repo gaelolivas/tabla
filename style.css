@@ -1,0 +1,92 @@
+.gasnoble
+  {Background:PaleTurquoise;}
+
+.nometales
+  {Background:BlueViolet;}
+
+.halogenos
+  {Background:DeepPink;}
+
+.metaloides
+  {Background:LimeGreen;}
+
+.metalesalcalinos
+  {Background:Orangered;}
+
+.alcalinoterreos
+{Background:Orange;}
+
+
+.metalesdetransicion
+{Background:#E6EC89;}
+
+
+.lantanidos
+{Background:GreenYellow;}
+
+
+.actinidos
+{Background:LimeGreen;}
+
+td:hover{
+  opacity: 1 ;transition: all;
+  visibility: visible;
+  background: red;
+}
+
+
+td{
+  transition: width 1s, height 1s, transform 0.1s;
+}
+
+td:hover{
+  transform: scale(1.5);
+}
+
+.modal-contenido{
+  background-color:rgba(40,114,51,0.5);
+  color:#ffffff; 
+  width:300px;
+  Padding:10px 20px;
+  box-Shadow:5px 5px 5px rgba(12,12,12,0.527);
+  Margin:2rem auto;
+  Position:relative;
+  border-style: outset;
+  border-radius:6px;
+  overflow:hidden;
+  z-index:1;
+  Backdrop-filter:saturate(180%) blur(20px);
+  
+}
+.modal{
+  background-color: rgba(0,0,0,.6);
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  opacity:0;
+  pointer-events:none;
+  transition:all 1s;
+  }
+:target{
+  opacity:1;
+  pointer-events:auto;
+  border-radius: 8px;
+}
+
+.modal-contenido{
+  background-color:rgba(40,114,51,0.5);
+  color:#ffffff; 
+  width:300px;
+  Padding:10px 20px;
+  box-Shadow:5px 5px 5px rgba(12,12,12,0.527);
+  Margin:2rem auto;
+  Position:relative;
+  border-style: outset;
+  border-radius:6px;
+  overflow:hidden;
+  z-index:1;
+  Backdrop-filter:saturate(180%) blur(20px);
+  
+}
